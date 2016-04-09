@@ -1,0 +1,35 @@
+table {
+	border: 2px solid #8CF4F2;
+	border-collapse: collapse;
+	background-color: #F2FAFA;
+	color: #8CF4F2;
+	width: 302px;
+	height: 378px;
+	font-family: consolas;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 2px 2px gray;
+}
+button {
+	background-color: #F2FAFA;
+	width: 72px;
+	height: 72px;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	text-shadow: inherit;
+}
+td {
+	border: 2px solid #8CF4F2;
+	height: 72px;
+	text-align: center;
+	vertical-align: middle;
+}
+#calcDisplay {
+	text-align: right;
+	padding-right: 15px;
+}
+#zeroBtn {
+	width: 150px;
+}

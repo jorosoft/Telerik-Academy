@@ -1,0 +1,22 @@
+html {
+	font-family: arial;
+}
+h1 {	
+	font-size: 16px;
+	font-weight: normal;
+}
+ol.roman {
+	list-style-type: upper-roman;
+}
+ol.alpha {
+	list-style-type: lower-alpha;
+}
+ul.disc {
+	list-style-type: disc;
+}
+ul.circle {
+	list-style-type: circle;
+}
+ul.square {
+	list-style-type: square;
+}
