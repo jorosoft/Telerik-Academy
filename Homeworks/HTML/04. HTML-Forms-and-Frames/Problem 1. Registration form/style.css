@@ -1,0 +1,59 @@
+table, td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	font-family: Arial;
+	font-size: 16px;	
+}
+textarea {
+	overflow: hidden;
+	margin-top: 5px;
+}
+.bold {
+	font-weight: bold;	
+}
+.right {	
+	text-align: right;
+	width: 175px;
+	height: 30px;
+	padding-right: 5px;
+}
+.left {
+	text-align: left;
+	width: 310px;
+	padding-left: 5px;
+}
+.centered {
+	text-align: center;
+}
+.colored {
+	background-color: #d1ede1;
+	height: 30px;
+}
+.sizeOne {
+	width: 285px;
+}
+.sizeTwo {
+	width: 195px;
+	margin-left: 5px;
+}
+.sizeThree {
+	width: 38px;
+	margin-left: 5px;
+}
+.sizeFour {
+	width: 77px;
+}
+.sizeFive {
+	width: 208px;
+}
+.sizeSix {
+	width: 54px;
+}
+.sizeSeven {
+	width: 130px;
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+.sizeEight {
+	width: 26px;
+}

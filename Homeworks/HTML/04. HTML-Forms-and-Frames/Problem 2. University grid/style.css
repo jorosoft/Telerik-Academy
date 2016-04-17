@@ -1,0 +1,17 @@
+table, td, th {
+	border-collapse: collapse;
+	border: 1px solid gray;
+}
+td, th {
+	height: 28px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.bold {
+	font-weight: bold;
+	text-align: center;
+}

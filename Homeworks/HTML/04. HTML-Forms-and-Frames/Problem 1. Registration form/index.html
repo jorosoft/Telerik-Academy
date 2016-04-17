@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Last Name</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="#">
+		<table>
+			<tr>
+				<td class="bold right">Last Name</td>
+				<td colspan="3" class="left">
+					<input type="text" class="sizeOne"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">First Name</td>
+				<td colspan="3" class="left">
+					<input type="text" class="sizeOne" />
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Address</td>
+				<td colspan="3" class="left">
+					<textarea cols="36" rows="4"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">City</td>
+				<td>
+					<input type="text" class="sizeTwo"/>
+				</td>
+				<td class="centered bold">State</td>
+				<td>
+					<input type="text" class="sizeThree"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Zip/Postal Code</td>
+				<td colspan="3" class="left">
+					<input type="text" class="sizeFour" />
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Country</td>
+				<td colspan="3" class="left">
+					<select class="sizeFive">
+						<option value="">Bulgaria</option>
+						<option value="">England</option>
+						<option value="">USA</option>
+						<option value="">Germany</option>
+						<option value="">Russia</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Phone (country code, area code, number)</td>
+				<td colspan="3" class="left">
+					(+
+					<input type="text" class="sizeSix" />
+					)
+					<input type="text" class="sizeSix" />
+					-
+					<input type="text" class="sizeSeven" />
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">E-mail</td>
+				<td colspan="3" class="left">
+					<input type="text" class="sizeOne"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Birth date</td>
+				<td colspan="3" class="left">
+					Month
+					<input type="text" class="sizeEight" />
+					Day
+					<input type="text" class="sizeEight" />
+					Year (4 digit)
+					<input type="text" class="sizeSix" />
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Gender</td>
+				<td colspan="3" class="left">
+					<select>
+						<option value="">Male</option>
+						<option value="">Female</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Starting date</td>
+				<td colspan="3" class="left">
+					<input type="radio" id="radioSpring" name="radios[]" />
+					<label for="radioSpring">Spring 2006</label>
+					<input type="radio" id="radioSummer" name="radios[]" />
+					<label for="radioSummer">Summer 2006</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="bold right">Comments/Questions</td>
+				<td colspan="3" class="left">
+					<textarea cols="36" rows="6"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" class = "colored centered">
+					<button>Submit</button>
+					<input type="reset" value="Clear This Form" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {	
+	font-family: Candara, Arial;
+}
+a {
+	font-family: Arial;
+	font-weight: bolder;
+	font-size: 26px;
+	padding-right: 2px;
+	padding-left: 2px;
+	color: #00b0f0;
+}
+td {
+	text-align: center;
+}
+input[type=range] {
+	width: 180px;
+}
+#mainTable {
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+#mainTable .head {
+	border-bottom: 2px solid gray;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#bodyTable {
+	font-size: 20px;
+}
+.bold {
+	font-weight: bold;
+	font-size: 23px;
+}
+.borderedOne {
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-left: 2px solid gray;
+}
+.borderedTwo {
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-right: 2px solid gray;
+}

@@ -1,0 +1,64 @@
+html {
+	font-family: arial;
+	font-size: 12px;
+}
+table {
+	width: 880px;
+	height: 390px;		
+}
+table tr:first-child td:first-child {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;}
+
+table tr:last-child td:last-child {
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+table, td {
+	border-collapse: collapse;
+	border: 1px solid lightgray;
+}
+tr {
+	height: 28px;
+}
+td {
+	padding-left: 5px;
+}
+span {
+	float: right;
+	padding-top: 5px;
+	padding-right: 7px;
+}
+a {
+	text-decoration: none;
+	color: black;	
+}
+input[type=image], input[type=text], input[type=checkbox] {
+	vertical-align: middle;
+}
+select {
+	vertical-align: middle;
+}
+.colored {
+	background-image: url("pattern.png");
+	background-repeat: repeat-x;	
+}
+.coloredTwo {
+	background-color: #dfe3e8;
+}
+.coloredThree {
+	background-image: url("pattern2.png");
+	background-repeat: repeat-x;	
+}
+.sizeOne {
+	width: 28px;
+}
+.sizeTwo {
+	width: 140px;
+}
+.sizeThree {
+	width: 78px;
+}
+.heightOne {
+	height: 25px;
+}
