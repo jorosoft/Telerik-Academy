@@ -1,0 +1,15 @@
+html {
+	font-family: arial;
+	font-size: 24px;
+}
+h1 {
+	display: inline;
+	margin-left: 150px;	
+	font-size: 26px;
+	vertical-align: top;	
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
