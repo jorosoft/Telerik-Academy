@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0
+}
+div {
+	width: 304px;
+	height: 205px;
+	background-color: #595959;
+	font-family: arial;
+	font-size: 11px
+}
+th{
+	text-align: left;
+	font-weight: normal;
+	font-size: 16px;
+	padding-top: 6px	
+}
+td {
+	height: 20px;
+	vertical-align: top;
+	border-top: 7px solid #595959
+}
+td:nth-of-type(2n+1){
+	color: white;
+	font-style: italic;
+	width: 100px
+}
+.bullet {
+	font-size: 36px;
+	color: #71B47A;
+	vertical-align: top	
+}
+.special {
+	line-height: 14px
+}
+.red {
+	color: #EA0205
+}
+.yellow {
+	color: #E4D987
+}
+.gray {
+	color: #BBBBBA
+}
+.orange {
+	color: #DE6A24
+}
