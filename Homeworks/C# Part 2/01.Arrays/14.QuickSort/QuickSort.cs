@@ -4,24 +4,21 @@ class QuickSort
 {
     static int SplitArray(int[] numbers, int left, int right)
     {
-        int main = numbers[left];
-        while (true)
+        int main = numbers[right];
+        int result = left;
+        for (int i = left; i < right; i++)
         {
-            while (numbers[left] < main)
-                left++;
-            while (numbers[right] > main)
-                right--;
-            if (left < right)
+            if (numbers[i] <= main)
             {
-                int temp = numbers[right];
-                numbers[right] = numbers[left];
-                numbers[left] = temp;
-            }
-            else
-            {
-                return right;
+                int temp = numbers[i];                
+                numbers[i] = numbers[result];
+                numbers[result] = temp;
+                result++;
             }
         }
+        numbers[right] = numbers[result];
+        numbers[result] = main;        
+        return result;
     }
 
     static void QSort(int[] array, int left, int right)
@@ -29,11 +26,8 @@ class QuickSort
         if (left < right)
         {
             int main = SplitArray(array, left, right);
-            if (main > 1)
-                QSort(array, left, main - 1);
-
-            if (main + 1 < right)
-                QSort(array, main + 1, right);
+            QSort(array, left, main - 1);
+            QSort(array, main + 1, right);
         }
     }
 
