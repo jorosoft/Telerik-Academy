@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Windows Calculator</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="logo">
+				<img src="images/calc-icon.png" alt="calculator icon" />
+				Calculator
+			</div>
+			<div id="navButtons">
+				<div id="minButton"><a href="#"><img src="images/min-icon.png" alt="minimize button" /></a></div>
+				<div id="maxButton"><a href="#"><img src="images/max-icon.png" alt="maximize button" /></a></div>
+				<div id="closeButton"><a href="#"><img src="images/close-icon.png" alt="close button" /></a></div>
+			</div>			
+		</header>
+		<main>
+			<div id="menuBar">
+				<span><a href="#"><span class="firstLetter">V</span>iew</a></span>
+				&nbsp;&nbsp;
+				<span><a href="#"><span class="firstLetter">E</span>dit</a></span>
+				&nbsp;&nbsp;
+				<span><a href="#"><span class="firstLetter">H</span>elp</a></span>
+			</div>
+			<div id="mainContent">
+				<div id="screen"><div>8854455</div></div>
+				<div id="binary">
+					&nbsp;0000<span class="smallSpace"></span>0000<span class="smallSpace"></span>0000<span class="smallSpace"></span>0000<span class="smallSpace"></span>0000<span class="smallSpace"></span>0000<span class="smallSpace"></span>0000<span class="smallSpace"></span>0000<br />
+					&nbsp;<span class="grayText">63</span><span class="largeSpace"></span><span class="grayText">47</span><span class="middleSpace"></span><span class="grayText">32</span><br />
+					&nbsp;0000<span class="smallSpace"></span>0000<span class="smallSpace"></span>1000<span class="smallSpace"></span>0111<span class="smallSpace"></span>0001<span class="smallSpace"></span>1011<span class="smallSpace"></span>1011<span class="smallSpace"></span>0111<br />
+					&nbsp;<span class="grayText">31</span><span class="largeSpace"></span><span class="grayText">15</span><span class="middleSpace"></span><span class="grayText">&nbsp;0</span>
+					<div id="leftPaneTop">
+						<div></div>
+						&nbsp;<input type="radio" name = "system" id="hex" />
+						<label for="hex">Hex</label><br />
+						&nbsp;<input type="radio" name = "system" id="dec" checked />
+						<label for="dec">Dec</label><br />	
+						&nbsp;<input type="radio" name = "system" id="oct" />
+						<label for="oct">Oct</label><br />	
+						&nbsp;<input type="radio" name = "system" id="bin" />
+						<label for="bin">Bin</label>		
+					</div>
+					<div id="leftPaneBottom">
+						<div></div>
+						&nbsp;<input type="radio" name = "type" id="qword" checked />
+						<label for="qword">Qword</label><br />
+						&nbsp;<input type="radio" name = "type" id="dword" />
+						<label for="dword">Dword</label><br />	
+						&nbsp;<input type="radio" name = "type" id="word" />
+						<label for="word">Word</label><br />	
+						&nbsp;<input type="radio" name = "type" id="byte" />
+						<label for="byte">Byte</label>
+					</div>
+					<div id="buttonsPanel">
+						<table>
+							<tr>
+								<td><button disabled></button></td>
+								<td><button class="specialButton">Mod</button></td>
+								<td><button>A</button></td>
+								<td><button>MC</button></td>
+								<td><button>MR</button></td>
+								<td><button>MS</button></td>
+								<td><button>M+</button></td>
+								<td><button>M-</button></td>
+							</tr>
+							<tr>
+								<td><button class="specialButton">(</button></td>
+								<td><button class="specialButton">)</button></td>
+								<td><button>B</button></td>
+								<td><button class="bold specialButton">&larr;</button></td>
+								<td><button class="specialButton">CE</button></td>
+								<td><button class="specialButton">C</button></td>
+								<td><button class="specialButton">&plusmn;</button></td>
+								<td><button>&radic;</button></td>
+							</tr>
+							<tr>
+								<td><button class="specialButton">RoL</button></td>
+								<td><button class="specialButton">RoR</button></td>
+								<td><button>C</button></td>
+								<td><button class="lightButton">7</button></td>
+								<td><button class="lightButton">8</button></td>
+								<td><button class="lightButton">9</button></td>
+								<td><button class="specialButton">/</button></td>
+								<td><button>%</button></td>
+							</tr>
+							<tr>
+								<td><button class="specialButton">Or</button></td>
+								<td><button class="specialButton">Xor</button></td>
+								<td><button>D</button></td>
+								<td><button class="lightButton">4</button></td>
+								<td><button class="lightButton">5</button></td>
+								<td><button class="lightButton">6</button></td>
+								<td><button class="specialButton">*</button></td>
+								<td><button>1/x</button></td>
+							</tr>
+							<tr>
+								<td><button class="specialButton">Lsh</button></td>
+								<td><button class="specialButton">Rsh</button></td>
+								<td><button>E</button></td>
+								<td><button class="lightButton">1</button></td>
+								<td><button class="lightButton">2</button></td>
+								<td><button class="lightButton">3</button></td>
+								<td><button class="specialButton">-</button></td>
+								<td rowspan="2"><input type="submit" id ="bigButtonY" class="bold specialButton" value="="/></td>
+							</tr>
+							<tr>
+								<td><button class="specialButton">Not</button></td>
+								<td><button class="specialButton">And</button></td>
+								<td><button>F</button></td>
+								<td colspan="2"><input type="submit" id ="bigButtonX" class="lightButton" value = "0" /></td>
+								<td><button>.</button></td>
+								<td><button class="specialButton">+</button></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
