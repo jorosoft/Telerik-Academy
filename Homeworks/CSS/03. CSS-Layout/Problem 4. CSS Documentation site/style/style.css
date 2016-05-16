@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0
+}
+body {
+	background-color: #F1F1F1;
+	font-family: arial;
+	font-size: 11.5px;
+}
+#leftPanel {
+	width: 140px;
+	height: 580px;
+	display: inline-block;
+	position: absolute;
+	top: 3px;
+	padding-top: 10px;
+	padding-left: 2px;	
+}
+#leftPanel a {
+	color: black;
+	text-decoration: none;
+}
+#leftPanel ul {
+	margin-top: 12px;
+}
+#leftPanel ul li {
+	line-height: 1.2em;
+}
+#home {
+	font-weight: bold;
+	padding-left: 3px;
+}
+.catLabel {
+	color: #961917;
+	font-weight: bold;
+}
+#rightPanel {
+	width: 140px;	
+	height: 555px;
+	display: inline-block;
+	position: absolute;
+	top: 3px;
+	left: 640px;
+}
+#rightPanel a, main a {
+	color: #9B2220;
+	text-decoration: underline;
+}
+table {
+	height: 560px;
+}
+table td {
+	text-align: center;
+}
+input[type="text"] {
+	width: 90px;
+	height: 18px;
+	margin-top: 5px;
+}
+main {
+	width: 496px;	
+	height: 550px;
+	display: inline-block;
+	border: 1px solid #C7C7C7;
+	position: absolute;
+	top: 3px;
+	left: 142px;
+	background-color: white;
+}
+h1 {
+	padding: 15px 15px 15px 5px;
+	font-size: 19px;
+}
+h2 {
+	background-color: #808080;
+	color: white;
+	font-size: 11.5px;
+	height: 15px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+hr {
+	margin: 5px 5px 5px 5px;
+	height: 1px;
+	background-color: #A7A7A7;
+}
+img {
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+img+div {
+	display: inline-block;
+	width: 320px;
+	margin-top: 10px;
+}
+table td {
+	background-color: white;
+	border: 1px solid #C7C7C7;
+}
+#blueBtn {
+	width: 99px;
+	height: 28px;
+	background: url("../images/button-bkg.png") repeat-y;
+	color: #16C3FF;
+	border: 1px solid #6398C0;
+}
+p {	
+	margin:10px 10px 10px 5px;
+}
+.bold {
+	font-weight: bold;
+}
+.prevBtn, .nextBtn {
+	width: 98px;
+	height: 20px;
+	background-color: white;
+	border: 1px solid black;
+	margin-left: 5px;
+}
+.prevBtn {
+	background: url("../images/btnPrev.png") no-repeat;
+	background-position: 2px 4px;
+}
+.nextBtn {
+	background: url("../images/btnNext.png") no-repeat;
+	background-position: 86px 4px;
+}

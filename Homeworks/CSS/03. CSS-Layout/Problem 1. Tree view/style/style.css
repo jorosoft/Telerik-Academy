@@ -1,0 +1,24 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.grayText a {
+	color: gray;
+	font-weight: bold;	
+}
+.hidden {
+	display: none;	
+}
+a:hover {	
+	text-decoration: underline;
+}
+li:hover>.hidden {	
+	display: list-item;
+}

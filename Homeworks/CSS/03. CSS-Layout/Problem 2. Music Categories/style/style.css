@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial
+}
+body>div {
+	width: 421px;
+	height: 538px;
+	border: 1px solid hidden;
+	border-radius: 10px;
+	background-color: #EEEEEE
+}
+h1 {
+	font-weight: normal;
+	font-size: 16px;
+	padding: 10px 0 0 10px
+}
+article {
+	width: 400px;
+	height: 120px;
+	border: 1px solid gray;
+	margin: 37px 0 0 10px;	
+	background-color: #FFFFFF
+}
+#firstPicture, #secondPicture, #thirdPicture {
+	border: 1px solid gray;
+	width: 135px;
+	height: 86px;
+	display: inline-block;
+	margin: 15px 0 0 15px
+}
+#firstPicture {
+	background: url("../images/pic01.png") no-repeat
+}
+#secondPicture {
+	background: url("../images/pic02.png") no-repeat
+}
+#thirdPicture {
+	background: url("../images/pic03.png") no-repeat
+}
+#firstContainer, #secondContainer, #thirdContainer {
+	width: 203px;
+	height: 86px;
+	float: right;
+	margin: 15px 25px 0 0;
+	font-size: 12px
+}
+span {
+	font-weight: bold
+}
+button {
+	height: 24px;
+	color: white;
+	border-top: 1px solid #E68185;
+	border-bottom: 1px solid #650000;
+	border-left: 1px solid #BC6D6F;
+	border-right: 1px solid #6B0B0B	
+}
+.largeButton {
+	width: 72px;	
+	background: url("../images/largeBtnBkg.png") repeat-y;
+	position: absolute;
+	left: 263px
+}
+.littleButton {
+	width: 58px;	
+	background: url("../images/littleBtnBkg.png") repeat-y;
+	position: absolute;
+	left: 338px
+}
+.firstButtons {
+	top: 148px
+}
+.secondButtons {
+	top: 304px
+}
+.thirdButtons {
+	top: 472px
+}
