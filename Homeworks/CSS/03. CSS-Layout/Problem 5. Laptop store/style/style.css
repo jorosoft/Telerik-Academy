@@ -1,3 +1,7 @@
+@font-face{
+	font-family:"Candara";
+	src:url("../fonts/Candara.ttf");
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -62,7 +66,7 @@ input[type="range"] {
 	margin-top: 20px;
 }
 #main, #rightPanel, div {
-	font-family: Candara, Arial;
+	font-family: Candara, arial;
 } 
 p {
 	font-size: 26px;
