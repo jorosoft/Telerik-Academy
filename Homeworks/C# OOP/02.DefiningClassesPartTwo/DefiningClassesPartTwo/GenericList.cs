@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class GenericList<T>
+    public class GenericList<T> where T : IComparable<T>
     {
         private T[] list;
         private int currentIndex;
@@ -24,6 +24,14 @@
             get
             {
                 return this.currentIndex;
+            }
+        }
+
+        public int Capacity
+        {
+            get
+            {
+                return this.list.Length;
             }
         }
 
@@ -129,18 +137,30 @@
             return result;
         }
 
-        public T Min<T>() where T : IComparable<T>
+        public T Min()
         {
-            T minValue;
-            
+            T minValue = this.list[0];
+            for (int i = 1; i < this.currentIndex; i++)
+            {
+                if (this.list[i].CompareTo(minValue) < 0)
+                {
+                    minValue = this.list[i];
+                }
+            }
 
             return minValue;
         }
 
-        public T Max<T>() where T : IComparable<T>
+        public T Max()
         {
-            T maxValue;
-
+            T maxValue = this.list[0];
+            for (int i = 1; i < this.currentIndex; i++)
+            {
+                if (this.list[i].CompareTo(maxValue) > 0)
+                {
+                    maxValue = this.list[i];
+                }
+            }
 
             return maxValue;
         }
