@@ -19,6 +19,9 @@ function solve(){
     root.addEventListener('click', function (ev) {
       var clickedBtn = ev.target;
       var nextElement = clickedBtn.nextElementSibling;
+      if (nextElement.tagName === 'BR') {
+        nextElement = nextElement.nextElementSibling;
+      }
       var nextNextElement = nextElement.nextElementSibling;
       if (nextElement.className === 'content' && nextNextElement.className === 'button') {
         if (nextElement.style.display === 'none') {
