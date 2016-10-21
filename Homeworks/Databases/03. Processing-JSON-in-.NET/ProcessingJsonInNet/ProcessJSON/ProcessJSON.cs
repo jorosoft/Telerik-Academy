@@ -83,27 +83,26 @@ namespace ProcessJSON
         private static void GenerateHtmlFile(IList<Entry> entries)
         {
             var fileData = new StringBuilder();
-            fileData.Append("<!DOCTYPE html>");
-            fileData.Append("<html>");
-            fileData.Append("<head>");
-            fileData.Append("<title>Telerik Videos</title>");
-            fileData.Append("<link rel='stylesheet' href='style.css' />");
-            fileData.Append("</head>");
-            fileData.Append("<body>");
-            fileData.Append("<h1>Telerik Videos</h1>");
-            fileData.Append("<ul>");
+            fileData.AppendLine("<!DOCTYPE html>");
+            fileData.AppendLine("<html>");
+            fileData.AppendLine("<head>");
+            fileData.AppendLine("   <title>Telerik Videos</title>");
+            fileData.AppendLine("   <link rel='stylesheet' href='style.css' />");
+            fileData.AppendLine("</head>");
+            fileData.AppendLine("<body>");
+            fileData.AppendLine("   <h1>Telerik Videos</h1>");
+            fileData.AppendLine("   <ul>");
 
             foreach (var video in entries)
             {
-                fileData.Append("<li>");
-                fileData.Append($"<iframe src='{video.MediaGroup.MediaContent.Url}'>");
-                fileData.Append("</iframe>");
-                fileData.Append("</li>");
+                fileData.AppendLine("       <li>");
+                fileData.AppendLine($"          <iframe src='{video.MediaGroup.MediaContent.Url}'></iframe>");
+                fileData.AppendLine("       </li>");
             }         
 
-            fileData.Append("</ul>");
-            fileData.Append("</body>");            
-            fileData.Append("</html>");
+            fileData.AppendLine("   </ul>");
+            fileData.AppendLine("</body>");            
+            fileData.AppendLine("</html>");
 
             var htmlFilePath = "../../../index.html";
             using (var writter = new StreamWriter(htmlFilePath))
