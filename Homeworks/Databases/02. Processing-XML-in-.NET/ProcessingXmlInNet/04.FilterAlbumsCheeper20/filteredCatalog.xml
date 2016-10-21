@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog>
+  <album>
+    <name>International Superhits!</name>
+    <artist>Green Day</artist>
+    <year>2001</year>
+    <producer>Reprise Records</producer>
+    <price>19.99</price>
+    <songs>
+      <song>
+        <title>Maria</title>
+        <duration>111</duration>
+      </song>
+      <song>
+        <title>Basket Case</title>
+        <duration>211</duration>
+      </song>
+      <song>
+        <title>When I Come Around</title>
+        <duration>100</duration>
+      </song>
+      <song>
+        <title>J.A.R. (Jason Andrew Relva)</title>
+        <duration>190</duration>
+      </song>
+      <song>
+        <title>Walking Contradiction</title>
+        <duration>178</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>And Justice for All</name>
+    <artist>Metallica</artist>
+    <year>1988</year>
+    <producer>Elektra Records</producer>
+    <price>18.50</price>
+    <songs>
+      <song>
+        <title>And Justice for All</title>
+        <duration>213</duration>
+      </song>
+      <song>
+        <title>One</title>
+        <duration>404</duration>
+      </song>
+      <song>
+        <title>Harvester of Sorrow</title>
+        <duration>310</duration>
+      </song>
+      <song>
+        <title>The Frayed Ends of Sanity</title>
+        <duration>101</duration>
+      </song>
+      <song>
+        <title>To Live Is to Die</title>
+        <duration>117</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Lovehunter</name>
+    <artist>Whitesnake</artist>
+    <year>1979</year>
+    <producer>United Artists</producer>
+    <price>17.70</price>
+    <songs>
+      <song>
+        <title>Walking in the Shadow of the Blues</title>
+        <duration>121</duration>
+      </song>
+      <song>
+        <title>Medicine Man</title>
+        <duration>144</duration>
+      </song>
+      <song>
+        <title>Mean Business</title>
+        <duration>113</duration>
+      </song>
+      <song>
+        <title>Love Hunter</title>
+        <duration>107</duration>
+      </song>
+      <song>
+        <title>We Wish You Well</title>
+        <duration>155</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

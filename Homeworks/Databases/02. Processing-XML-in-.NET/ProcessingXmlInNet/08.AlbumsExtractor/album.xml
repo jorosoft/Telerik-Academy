@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>25</name>
+		<artist>Adele</artist>
+	</album>
+	<album>
+		<name>International Superhits!</name>
+		<artist>Green Day</artist>
+	</album>
+	<album>
+		<name>Ride the Lightning</name>
+		<artist>Metallica</artist>
+	</album>
+	<album>
+		<name>Good to Be Bad</name>
+		<artist>Whitesnake</artist>
+	</album>
+	<album>
+		<name>And Justice for All</name>
+		<artist>Metallica</artist>
+	</album>
+	<album>
+		<name>Lovehunter</name>
+		<artist>Whitesnake</artist>
+	</album>
+	<album>
+		<name>Forevermore</name>
+		<artist>Whitesnake</artist>
+	</album>
+</albums>

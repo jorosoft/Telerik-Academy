@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog>
+    <album>
+        <name>25</name>
+        <artist>Adele</artist>
+        <year>2015</year>
+        <producer>XL Recordings</producer>
+        <price>23.00</price>
+        <songs>
+            <song>
+                <title>Hello</title>
+                <duration>123</duration>
+            </song>
+            <song>
+                <title>I Miss You</title>
+                <duration>211</duration>
+            </song>
+            <song>
+                <title>When We Were Young</title>
+                <duration>256</duration>
+            </song>
+            <song>
+                <title>Million Years Ago</title>
+                <duration>111</duration>
+            </song>
+            <song>
+                <title>All I Ask</title>
+                <duration>202</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>International Superhits!</name>
+        <artist>Green Day</artist>
+        <year>2001</year>
+        <producer>Reprise Records</producer>
+        <price>19.99</price>
+        <songs>
+            <song>
+                <title>Maria</title>
+                <duration>111</duration>
+            </song>
+            <song>
+                <title>Basket Case</title>
+                <duration>211</duration>
+            </song>
+            <song>
+                <title>When I Come Around</title>
+                <duration>100</duration>
+            </song>
+            <song>
+                <title>J.A.R. (Jason Andrew Relva)</title>
+                <duration>190</duration>
+            </song>
+            <song>
+                <title>Walking Contradiction</title>
+                <duration>178</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>Ride the Lightning</name>
+        <artist>Metallica</artist>
+        <year>1984</year>
+        <producer>Megaforce Records</producer>
+        <price>22.66</price>
+        <songs>
+            <song>
+                <title>Fight Fire with Fire</title>
+                <duration>120</duration>
+            </song>
+            <song>
+                <title>Ride the Lightning</title>
+                <duration>166</duration>
+            </song>
+            <song>
+                <title>For Whom the Bell Tolls</title>
+                <duration>210</duration>
+            </song>
+            <song>
+                <title>Fade to Black</title>
+                <duration>240</duration>
+            </song>
+            <song>
+                <title>Creeping Death</title>
+                <duration>177</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>Good to Be Bad</name>
+        <artist>Whitesnake</artist>
+        <year>2007</year>
+        <producer>Steamhammer Records</producer>
+        <price>27.00</price>
+        <songs>
+            <song>
+                <title>Best Years</title>
+                <duration>103</duration>
+            </song>
+            <song>
+                <title>Can You Hear the Wind Blow</title>
+                <duration>144</duration>
+            </song>
+            <song>
+                <title>Good to Be Bad</title>
+                <duration>156</duration>
+            </song>
+            <song>
+                <title>Summer Rain</title>
+                <duration>180</duration>
+            </song>
+            <song>
+                <title>Lay Down Your Love</title>
+                <duration>111</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>And Justice for All</name>
+        <artist>Metallica</artist>
+        <year>1988</year>
+        <producer>Elektra Records</producer>
+        <price>18.50</price>
+        <songs>
+            <song>
+                <title>And Justice for All</title>
+                <duration>213</duration>
+            </song>
+            <song>
+                <title>One</title>
+                <duration>404</duration>
+            </song>
+            <song>
+                <title>Harvester of Sorrow</title>
+                <duration>310</duration>
+            </song>
+            <song>
+                <title>The Frayed Ends of Sanity</title>
+                <duration>101</duration>
+            </song>
+            <song>
+                <title>To Live Is to Die</title>
+                <duration>117</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>Lovehunter</name>
+        <artist>Whitesnake</artist>
+        <year>1979</year>
+        <producer>United Artists</producer>
+        <price>17.70</price>
+        <songs>
+            <song>
+                <title>Walking in the Shadow of the Blues</title>
+                <duration>121</duration>
+            </song>
+            <song>
+                <title>Medicine Man</title>
+                <duration>144</duration>
+            </song>
+            <song>
+                <title>Mean Business</title>
+                <duration>113</duration>
+            </song>
+            <song>
+                <title>Love Hunter</title>
+                <duration>107</duration>
+            </song>
+            <song>
+                <title>We Wish You Well</title>
+                <duration>155</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>Forevermore</name>
+        <artist>Whitesnake</artist>
+        <year>2013</year>
+        <producer>Frontiers Records</producer>
+        <price>20.20</price>
+        <songs>
+            <song>
+                <title>Steal Your Heart Away</title>
+                <duration>201</duration>
+            </song>
+            <song>
+                <title>All Out of Luck</title>
+                <duration>177</duration>
+            </song>
+            <song>
+                <title>Easier Said Than Done</title>
+                <duration>156</duration>
+            </song>
+            <song>
+                <title>One of These Days</title>
+                <duration>134</duration>
+            </song>
+            <song>
+                <title>Forevermore</title>
+                <duration>170</duration>
+            </song>
+        </songs>
+    </album>
+</catalog>
