@@ -97,6 +97,7 @@ namespace ProcessJSON
             {
                 fileData.AppendLine("       <li>");
                 fileData.AppendLine($"          <iframe src='{video.MediaGroup.MediaContent.Url}'></iframe>");
+                fileData.AppendLine($"          <div>{video.MediaGroup.MediaDescription}</div>");
                 fileData.AppendLine("       </li>");
             }         
 
@@ -105,7 +106,8 @@ namespace ProcessJSON
             fileData.AppendLine("</html>");
 
             var htmlFilePath = "../../../index.html";
-            using (var writter = new StreamWriter(htmlFilePath))
+            var encoding = Encoding.UTF8;
+            using (var writter = new StreamWriter(htmlFilePath, false, encoding))
             {
                 writter.Write(fileData.ToString());
             }
