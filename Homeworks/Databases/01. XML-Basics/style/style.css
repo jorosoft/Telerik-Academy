@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {    
+    font-family: "arial";
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 2%;
+    background-color: lightblue;
+    color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 2%;
+}
+
+table th {
+    border: 2px solid black;
+    background-color: gray;
+    padding: 5px;
+}
+
+table td {
+    border: 1px solid black;
+    color: blue;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#tutor {
+    color: brown;
+    font-style: italic;
+}
+
+#score {
+    color: red;
+    float: right;
+    margin-left: 10px;
+}

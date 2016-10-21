@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students xmlns="urn:students">
+    <student>
+        <name>Ivan Ivanov</name>
+        <sex>Male</sex>
+        <birthDate>12.10.1980</birthDate>
+        <phone>0987654321</phone>
+        <email>ala@bala.com</email>
+        <course>Web Design</course>
+        <speciality>Computer Systems</speciality>
+        <faculty>FEA</faculty>
+        <exams>
+            <exam>
+                <examName>HTML Fundamentals</examName>
+                <tutor>Mincho Spasov</tutor>
+                <score>4.00</score>
+            </exam>
+        </exams>
+    </student>
+    <student>
+        <name>Penka Stamatova</name>
+        <sex>Female</sex>
+        <birthDate>10.11.1975</birthDate>
+        <phone>0900998877</phone>
+        <email>pena@turulub.com</email>
+        <course>Metallurgy</course>
+        <speciality>Machines</speciality>
+        <faculty>FMU</faculty>
+        <exams>
+            <exam>
+                <examName>Copper treatment</examName>
+                <tutor>Kiro Kirov</tutor>
+                <score>3.50</score>
+            </exam>
+            <exam>
+                <examName>Steel Structure</examName>
+                <tutor>Lalo Peychev</tutor>
+                <score>5.20</score>
+            </exam>
+        </exams>
+    </student>   
+    <student>
+        <name>Strahil Temelkov</name>
+        <sex>Male</sex>
+        <birthDate>07.08.1982</birthDate>
+        <phone>0912341234</phone>
+        <email>stamatis@pilipuros.com</email>
+        <course>Game Tactic</course>
+        <speciality>Tennis</speciality>
+        <faculty>FSP</faculty>
+        <exams>            
+        </exams>
+    </student> 
+</students>
