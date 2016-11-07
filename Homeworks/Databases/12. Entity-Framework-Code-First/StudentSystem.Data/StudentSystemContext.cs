@@ -10,12 +10,10 @@ namespace StudentSystem.Data
         {
         }
 
-        public DbSet<Student> Students { get; set; }
+        public virtual IDbSet<Student> Students { get; set; }
 
-        public DbSet<Course> Courses { get; set; }
+        public virtual IDbSet<Course> Courses { get; set; }
 
-        public DbSet<StudentsInCourses> StudentsInCourses { get; set; }
-
-        public DbSet<Homework> Homeworks { get; set; }
+        public virtual IDbSet<Homework> Homeworks { get; set; }
     }
 }

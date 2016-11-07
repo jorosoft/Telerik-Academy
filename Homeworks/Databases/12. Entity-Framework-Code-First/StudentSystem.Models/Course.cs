@@ -6,12 +6,12 @@ namespace StudentSystem.Models
 {
     public class Course
     {
-        private ICollection<StudentsInCourses> studentsInCourses;
+        private ICollection<Student> students;
         private ICollection<Homework> homeworks;
 
         public Course()
         {
-            this.studentsInCourses = new HashSet<StudentsInCourses>();
+            this.students = new HashSet<Student>();
             this.homeworks = new HashSet<Homework>();
         }
 
@@ -30,10 +30,10 @@ namespace StudentSystem.Models
         [MaxLength(500)]
         public string Materials { get; set; }
 
-        public virtual ICollection<StudentsInCourses> StudentsInCourses
+        public virtual ICollection<Student> Students
         {
-            get { return this.studentsInCourses; }
-            set { this.studentsInCourses = value; }
+            get { return this.students; }
+            set { this.students = value; }
         }
 
         public virtual ICollection<Homework> Homeworks

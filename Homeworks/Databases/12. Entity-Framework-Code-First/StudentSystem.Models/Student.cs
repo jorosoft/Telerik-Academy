@@ -6,12 +6,12 @@ namespace StudentSystem.Models
 {
     public class Student
     {
-        private ICollection<StudentsInCourses> studentsInCourses;
+        private ICollection<Course> courses;
         private ICollection<Homework> homeworks;
 
         public Student()
         {
-            this.studentsInCourses = new HashSet<StudentsInCourses>();
+            this.courses = new HashSet<Course>();
             this.homeworks = new HashSet<Homework>();
         }
 
@@ -27,10 +27,10 @@ namespace StudentSystem.Models
         [Index(IsUnique = true)]
         public string Number { get; set; }
 
-        public virtual ICollection<StudentsInCourses> StudentsInCourses
+        public virtual ICollection<Course> Courses
         {
-            get { return this.studentsInCourses; }
-            set { this.studentsInCourses = value; }
+            get { return this.courses; }
+            set { this.courses = value; }
         }
 
         public virtual ICollection<Homework> Homeworks

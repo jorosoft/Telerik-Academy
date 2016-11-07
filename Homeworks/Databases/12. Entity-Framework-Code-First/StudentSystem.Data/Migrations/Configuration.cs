@@ -6,11 +6,11 @@ namespace StudentSystem.Data.Migrations
     using System.Linq;
     using Models;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<StudentSystem.Data.StudentSystemContext>
+    public sealed class Configuration : DbMigrationsConfiguration<StudentSystem.Data.StudentSystemContext>
     {
         public Configuration()
         {
-            this.AutomaticMigrationsEnabled = false;
+            this.AutomaticMigrationsEnabled = true;
             this.AutomaticMigrationDataLossAllowed = false;
             this.ContextKey = "StudentSystem.Data.StudentSystemContext";
         }
