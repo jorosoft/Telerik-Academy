@@ -234,3 +234,7 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+TeamWorks
+
+node_modules/
+bower_components/
