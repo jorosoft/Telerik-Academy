@@ -1,0 +1,32 @@
+<h1>Todos</h1>
+{{#if result}}
+    {{#each result}}
+        <div id="{{id}}" class="panel panel-default">
+            <div class="panel-heading">{{text}}</div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="id">ID: </label>
+                    <input type="text" name="id" value = "{{id}}" disabled />
+                </div>
+                <div class="form-group">
+                    <label for="state">State: </label>                    
+                    <select name="state" class="form-control">  
+                        {{#if state}}                    
+                            <option value="true" selected="selected">true</option>>
+                            <option value="false">false</option>>   
+                        {{else}}
+                            <option value="true">true</option>>
+                            <option value="false" selected="selected">false</option>>
+                        {{/if}}                     
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category: </label>
+                    <input type="text" name="category" value = "{{category}}" disabled />
+                </div>
+            </div>
+        </div>
+    {{/each}}
+{{else}}
+    <p>You don't have todos at this time!</p>
+{{/if}}

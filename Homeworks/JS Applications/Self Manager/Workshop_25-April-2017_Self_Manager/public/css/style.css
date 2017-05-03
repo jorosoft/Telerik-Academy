@@ -1,0 +1,10 @@
+#user-info {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#logout-link,
+#functions-panel {
+    display: none;
+}

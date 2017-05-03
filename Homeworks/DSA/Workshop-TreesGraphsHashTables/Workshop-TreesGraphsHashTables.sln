@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddNumber", "OddNumber\OddNumber.csproj", "{47F27DA0-48EC-4884-B3A5-ED0E9B10136F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diameter", "Diameter\Diameter.csproj", "{6EFF3D5B-6CF7-4AEB-BE96-D024E9894DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reconstruction", "Reconstruction\Reconstruction.csproj", "{404C4120-8183-4CE7-81FF-42A276F8BAFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47F27DA0-48EC-4884-B3A5-ED0E9B10136F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F27DA0-48EC-4884-B3A5-ED0E9B10136F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F27DA0-48EC-4884-B3A5-ED0E9B10136F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F27DA0-48EC-4884-B3A5-ED0E9B10136F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFF3D5B-6CF7-4AEB-BE96-D024E9894DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFF3D5B-6CF7-4AEB-BE96-D024E9894DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFF3D5B-6CF7-4AEB-BE96-D024E9894DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFF3D5B-6CF7-4AEB-BE96-D024E9894DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404C4120-8183-4CE7-81FF-42A276F8BAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404C4120-8183-4CE7-81FF-42A276F8BAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404C4120-8183-4CE7-81FF-42A276F8BAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404C4120-8183-4CE7-81FF-42A276F8BAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRates", "ExchangeRates\ExchangeRates.csproj", "{A68C4A09-B722-4E4F-996D-C8C9F5705C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogePlusPlus", "DogePlusPlus\DogePlusPlus.csproj", "{8950A8FC-A38E-4770-9A19-C6AC36B0195B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindNumber", "FindNumber\FindNumber.csproj", "{5E9AD201-E07D-40FA-A71A-7EEE4DEC76E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A68C4A09-B722-4E4F-996D-C8C9F5705C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68C4A09-B722-4E4F-996D-C8C9F5705C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68C4A09-B722-4E4F-996D-C8C9F5705C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68C4A09-B722-4E4F-996D-C8C9F5705C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8950A8FC-A38E-4770-9A19-C6AC36B0195B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8950A8FC-A38E-4770-9A19-C6AC36B0195B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8950A8FC-A38E-4770-9A19-C6AC36B0195B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8950A8FC-A38E-4770-9A19-C6AC36B0195B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9AD201-E07D-40FA-A71A-7EEE4DEC76E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9AD201-E07D-40FA-A71A-7EEE4DEC76E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9AD201-E07D-40FA-A71A-7EEE4DEC76E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9AD201-E07D-40FA-A71A-7EEE4DEC76E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
